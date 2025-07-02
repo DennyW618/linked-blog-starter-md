@@ -31,7 +31,7 @@ Ein **Check-in** ist wie das Speichern und Teilen von Änderungen an einem gem
 
 den Checkin-Generator findest du hier: [[Tools#🔹Checkin-Generator installieren]]
 
-#### ### 🔹Richtlinien für Checkin Kommentare**
+#### 🔹**Richtlinien für Checkin Kommentare**
 
 [https://stackoverflowteams.com/c/eevolution/questions/29](https://stackoverflowteams.com/c/eevolution/questions/29 "https://stackoverflowteams.com/c/eevolution/questions/29")
 
