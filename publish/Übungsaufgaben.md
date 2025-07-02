@@ -8,7 +8,103 @@
 
 - [Clean Code Developer – Coding Dojo](https://ccd-school.de/coding-dojo/): Eine deutschsprachige Plattform mit Fokus auf sauberen Code und Softwarehandwerk, inklusive Dojos zum Üben guter Programmierpraktiken.
 
-### 🔹 Konkrete Übungsprojekte
+### 🔹 Übungsprojekt (in mehrere Abschnitte aufgeteilt)
+
+🟢**Stufe 1:** Grundlagen – Klassen und Objekte
+
+**Ziel:** Einführung in Klassen, Attribute und Objektinstanzen.
+
+Erstelle eine Klasse Mitglied mit den Attributen:
+
+**id** (zunächst manuell vergeben)
+**name**
+**alter**
+**mitgliedsstatus**
+
+- Erstelle 2–3 Objekte dieser Klasse im Code.
+
+- Gib Name und Mitgliedsstatus dieser Mitglieder in der Konsole aus.
+
+➡️ **Lernziel:** Klassen, Konstruktor, Attribute, Objektinstanzen, einfache Konsolenausgabe.
+
+
+🟡 **Stufe 2:** Vergleich und Kategorisierung
+
+**Ziel:** Einführung in Bedingungen, Listen und einfache Logik.
+
+-Speichere alle Mitglieder in einer Liste.
+-Prüfe, ob es doppelte Mitglieder gibt (gleicher Name, Alter, Status).
+-Gib Mitglieder nach Alterskategorie aus:
+-Kinder: unter 13
+-Teenager: 13–19
+-Erwachsene: 20+
+
+➡️ **Lernziel:** Listen, Schleifen, Bedingungen, Vergleichslogik.
+
+
+🟠 **Stufe 3:** Konsolenmenü und Benutzerinteraktion
+
+Ziel: Einführung in Benutzereingaben und einfache Menüs.
+
+Erstelle ein Menü mit:
+-**[1]** Neues Mitglied hinzufügen
+-**[2]** Alle Mitglieder anzeigen
+-**[10]** Beenden
+
+-Eingabe aller Attribute über Konsole (ID noch manuell).
+
+➡️ **Lernziel:** input(), Schleifen, einfache Menüführung.
+
+
+🔵 **Stufe 4:** Automatische ID-Vergabe und Validierung
+
+Ziel: Einführung in Validierung und Fehlerbehandlung.
+
+-**ID** wird automatisch vergeben (z. B. mit einem Zähler).
+-Validierung:
+    **Name:** nur Buchstaben, mindestens 3 Zeichen
+    **Alter:** muss eine Zahl sein
+    
+-**Bonus:** Wiederhole Eingabe bei Fehlern.
+
+➡️ **Lernziel:** Fehlerbehandlung (try/except), benutzerdefinierte Fehlermeldungen, Validierung.
+
+
+🟣 **Stufe 5:** JSON-Speicherung
+
+Ziel: Einführung in **Dateispeicherung** und **JSON.**
+
+Menü erweitern:
+-**[3]** Mitglieder als JSON speichern
+-**[4]** Mitglieder aus JSON laden
+-**Speicherort** z. B. mitglieder.json
+
+➡️ **Lernziel:** Dateioperationen, JSON, Serialisierung/Deserialisierung.
+
+
+🔴 **Stufe 6:** Zufällige Mitglieder generieren
+
+Ziel: Einführung in zufällige Daten und Programmstart-Logik.
+
+-Wenn keine JSON-Datei vorhanden oder leer:
+-Erzeuge 3–5 zufällige Mitglieder beim Start.
+
+➡️ **Lernziel:** os.path, Zufallsfunktionen, Startlogik.
+
+
+🟤 **Erweiterung:** GUI mit WinForms und SQLite (optional, fortgeschritten)
+
+Ziel: Einführung in GUI-Programmierung und Datenbanken.
+
+-MVVM-Struktur
+-SQLite statt JSON
+-Mitglieder können bearbeitet und gelöscht werden
+
+➡️ Lernziel: GUI-Design, Datenbankzugriff, MVVM-Architektur.
+
+
+
+### 🔹 Konkretes Übungsprojekt (im ganzen)
 
 #### - Eine Erste Übungsaufgabe -
 
@@ -75,6 +171,7 @@ Sollte keine JSON existieren bzw. diese leer sein, dann sollen zum Start des Pro
 -Als nächste Aufgabe kannst du die Anwendung unter Verwendung von [MVVM](https://de.wikipedia.org/wiki/Model_View_ViewModel "https://de.wikipedia.org/wiki/model_view_viewmodel") neu Entwickeln. Auch in *Winforms*, [hier](https://devblogs.microsoft.com/dotnet/winforms-cross-platform-dotnet-maui-command-binding/ "https://devblogs.microsoft.com/dotnet/winforms-cross-platform-dotnet-maui-command-binding/") kann man sich inspirieren lassen. 
 -Anstelle des JSON Ein- und Auslesen werden Mitglieder in einer [SQLiteDB](https://www.nuget.org/packages/Microsoft.Data.Sqlite "https://www.nuget.org/packages/microsoft.data.sqlite") gespeichert.
 -Benutzer können angelegt, bearbeitet und gelöscht werden.
+
 
 ###
 [[Startseite]]
