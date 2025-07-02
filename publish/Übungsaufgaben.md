@@ -7,18 +7,23 @@
 - [Coding Dojo Katas](https://codingdojo.org/kata/)Eine Sammlung von kleinen, wiederholbaren Programmierübungen („Katas“) zur Verbesserung von Codequalität und Problemlösungsfähigkeiten.
 
 - [Clean Code Developer – Coding Dojo](https://ccd-school.de/coding-dojo/): Eine deutschsprachige Plattform mit Fokus auf sauberen Code und Softwarehandwerk, inklusive Dojos zum Üben guter Programmierpraktiken.
+- 
 
 ### 🔹 Übungsprojekt (in mehrere Abschnitte aufgeteilt)
+
 
 🟢**Stufe 1:** Grundlagen – Klassen und Objekte
 
 **Ziel:** Einführung in Klassen, Attribute und Objektinstanzen.
 
-Erstelle eine Klasse Mitglied mit den Attributen:
+-Erstelle eine Klasse Mitglied mit den Attributen:
 
 **id** (zunächst manuell vergeben)
+
 **name**
+
 **alter**
+
 **mitgliedsstatus**
 
 - Erstelle 2–3 Objekte dieser Klasse im Code.
