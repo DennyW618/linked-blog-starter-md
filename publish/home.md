@@ -8,10 +8,15 @@ Diese Datei soll dir den Einstieg erleichtern und dir einen Überblick über wic
 
 
 [[Lernressourcen]]
+
 [[Übungsaufgaben]]
+
 [[Schulungsvideos]]
+
 [[Team Foundation Server]]
+
 [[Tools]]
+
 [[Einrichten]]
 
 
