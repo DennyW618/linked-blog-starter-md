@@ -1,6 +1,6 @@
 
 
-### 🔹 Allgemeine Coding Challenges
+###🔹 Allgemeine Coding Challenges
 
 - [LeetCode](https://leetcode.com/): Eine beliebte Plattform zum Üben von Programmieraufgaben, besonders für technische Bewerbungsgespräche und algorithmisches Denken.
 
@@ -11,7 +11,7 @@
 
 ---
 
-# 🔹 Übungsprojekt (in mehrere Abschnitte aufgeteilt)
+#🔹 Übungsprojekt Mitgliedervewaltungssoftware (in mehrere Abschnitte aufgeteilt)
 
 ## 🟢 **Stufe 1: Grundlagen – Klassen und Objekte**
 
@@ -112,7 +112,7 @@
 
 
 
-# 🧾 Mitgliederverwaltungssoftware (Selbes Projekt am Stück)
+#🔹 Mitgliederverwaltungssoftware (Selbes Projekt am Stück)
 
 > **Ziel:** Entwicklung einer Konsolenanwendung zur Verwaltung von Vereinsmitgliedern mit Fokus auf Datenvalidierung, Benutzerinteraktion, JSON-Handling und optionaler MVVM-Architektur mit SQLite.
 
